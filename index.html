@@ -33,16 +33,16 @@
 <body>
 	<div id="tools">
 		<label id="n-container">
-			<span>n : 8</span>
+			<span>N : 8</span>
 			<input style="width:200px;" id="n" type="range" min="1" max="100" value="8"/>
 		</label>
 		<label id="delay-container">
-			<span>delay : </span>
+			<span>Delay : </span>
 			<input id="delay" type="number" value="100"/>
 		</label>
 		<label>
-			<button id="run">run</button>
-			<button id="stop" disabled>stop</button>
+			<button id="run"><strong>Run</strong></button>
+			<button id="stop" disabled><strong>Stop</strong></button>
 		</label>
 	</div>
 
@@ -51,14 +51,14 @@
 			<div id="genetic-canvas"></div>
 			<div class="run-info">
 				<div>
-					algorithm : <span>Genetic</span>
+					<strong>Algorithm</strong>: <span>Genetic</span>
 				</div>
 				<div>
-					status :
+					<strong>Status</strong>:
 					<span class="status">stopped</span>
 				</div>
 				<div>
-					execution time : <span class="exec-time">NaN</span>
+					<strong>Execution Time</strong>: <span class="exec-time">NaN</span>
 				</div>
 				<div>
 					progress : <progress max="100" value="0" id="genetic-progress"></progress>
@@ -70,14 +70,15 @@
 			<div id="backtracking-canvas"></div>
 			<div class="run-info">
 				<div>
-					algorithm : <span>Backtracking</span>
+					<strong>Algorithm</strong>: <span>Backtracking</span>
 				</div>
 				<div>
-					status : <span class="status">stopped</span>
+					<strong>Status</strong>: <span class="status">stopped</span>
 				</div>
 				<div>
-					execution time : <span class="exec-time">NaN</span>
+					<strong>Execution Time</strong>: <span class="exec-time">NaN</span>
 				</div>
+
 			</div>
 		</div>
 	</div>
